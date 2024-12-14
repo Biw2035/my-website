@@ -1,1 +1,310 @@
-# my-website
+<html>
+    <style>
+        .poster1 {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            margin-top: 50; 
+            height: 750;
+            transform: scaleX(-1);
+            
+        }
+        .poster1 img{
+            border-radius: 3%;
+            height: 100%;
+        }
+        .poster2 {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            margin-top: 250; 
+            height: 660;
+            
+        }
+        .poster2 img{
+            border-radius: 3%;
+            overflow: hidden;
+            height: 100%;
+            z-index: 1;
+            position: relative; 
+        }
+        .movie {
+            display: flex;
+            justify-content: start;
+            height: 300px;
+            margin-top: 35; 
+            margin-left: 498;
+        }
+        .movie2 {
+            display: flex;
+            justify-content: start;
+            height: 300px;
+            margin-top: 35;
+            margin-left: 498;
+        }
+        iframe {
+            margin: -655px auto;
+            margin-left: 1070;
+            z-index: 2;
+            position: absolute;
+        }
+        .person {
+            display: flex;
+            justify-content: center;
+            margin-top: 45px;         
+        }
+        .person img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+            margin-right: 30;
+        }
+        .name {
+            display: flex;
+            justify-content: center;
+            margin-top: 10;
+        }
+        .name a{
+            width: 137;
+            color: white;
+            font-size: 16px;
+            margin-right: 10px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .detail {
+            color: white;
+            text-align: start;
+        }
+        .feture {
+            margin-top: 100;
+        }
+        .feture_poster {
+             display: flex;           
+             overflow-x: auto;       
+             gap: 20px;               
+             margin-top: 30px;   
+             max-width: 1000;
+             padding-bottom: 30px;
+             
+        }
+        .feture_poster img {
+            height: 300px;
+            width: auto;    
+            border-top-right-radius : 10%;    
+            cursor: default;      
+        }
+        .feture_poster a {
+            text-decoration: none;
+            display: block;
+            position: relative;
+            color:white;
+            background-color:#888;
+            padding-bottom: 10;
+            cursor: default;  
+        }
+
+        .feture_poster button {
+            padding: 15px 45px;
+            border-radius: 100px;
+            cursor: pointer;
+            transform: translateX(15%);
+            left: 50%;
+        }
+
+        /* แถบเลื่อน */
+        .feture_poster::-webkit-scrollbar {
+            height: 8px;                 
+        }
+        .feture_poster::-webkit-scrollbar-thumb {
+            background-color: #888;      
+            border-radius: 10px;      
+        }
+    </style>
+    <head>
+        <title>My favorite movie</title>
+    </head >
+
+    <body style="background-color: rgb(0, 0, 0);">
+    </body>
+    
+    <!-- Stranger things -->
+    <body >
+        </div>
+            <div class="poster1">
+                <img src="https://occ-0-8407-116.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS6v2gvwesuRN6c28ZykPq_fpmnQCJwELBU-kAmEcuC9HhWX-DfuDbtA-bfo-IrfgNtxl0qwJJlhI6DENsGFXknKkjhxPGTV-qhp.jpg?r=608" alt="poster1" >
+                
+            </div>
+            <div class="movie">
+                <img src="https://upload.cdn.baselinker.com/products/6910/1ec2fab101f660986573e32f16275b05.jpg" alt="poster2">
+                <div class="detail">
+                    <a href="https://www.imdb.com/title/tt4574334/?ref_=nv_sr_srsg_1_tt_6_nm_1_in_0_q_stra" style="color: white; font-size: 16px; margin-right: 10px; text-decoration: none; cursor: pointer; margin-left: 20;font-size: 50;">Stranger things ></a>
+                    <p style="margin-left: 20;">⭐ 10.0/10.0</p>
+                    <h2 style="margin-left: 20;color: gold;">Series streaming on Netflix</h2>
+                    <h3 style="max-width: 650;margin-left: 20;font-size: 17;">Stranger Things is a thrilling and nostalgic sci-fi horror series set in the 1980s in the small town of Hawkins, Indiana. The story begins with the mysterious disappearance of young Will Byers, which sets off a chain of supernatural events. As his friends—Mike, Lucas, and Dustin—search for him, they stumble upon Eleven, a girl with telekinetic powers who has escaped from a secret government lab. As the group uncovers the secrets of the "Upside Down," an alternate dark dimension teeming with deadly creatures, they must confront terrifying monsters and sinister conspiracies. Meanwhile, Will's mother, Joyce, and Police Chief Hopper follow clues that reveal the town’s deeper connection to these otherworldly phenomena.</h3>
+                </div>
+            </div>
+    </body>
+    <body >
+        <iframe 
+        width="500" 
+        height="300" 
+        src="https://www.youtube.com/embed/yXnk3n-qNrI"
+        title="video player" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </body>
+    <div class="person">
+        <a href="https://www.imdb.com/name/nm4806449/mediaindex/?ref_=nm_mv_close">
+            <img src="https://preview.redd.it/your-opinions-about-eddie-munson-v0-fd3buyuodnyc1.jpeg?width=640&crop=smart&auto=webp&s=6e958d3f7850925fa18666572e5981f1c1f60101" alt="person1">
+        </a>
+        <a href="https://www.imdb.com/name/nm1092086/?ref_=tt_cst_i_4">
+            <img src="https://helios-i.mashable.com/imagery/articles/03NvHccOg9tv0pTQDE0RIZc/hero-image.fill.size_1200x1200.v1623385722.jpg" alt="person2">
+        </a>
+        <a href="https://www.imdb.com/name/nm7140802/?ref_=nm_mv_close">
+            <img src="https://pbs.twimg.com/profile_images/943669580618256384/iYgmUhNh_400x400.jpg" alt="person3">
+        </a>
+        <a href="https://www.imdb.com/name/nm5611121/?ref_=ttfc_fc_cl_t9">
+            <img src="https://i.redd.it/favorite-eleven-jane-hopper-hairstyle-v0-bb297viuqclc1.jpg?width=1254&format=pjpg&auto=webp&s=aa0c354e6afb77529d0914bd53e5cded8bf8002c" alt="person4">
+        </a>
+        <a href="https://www.imdb.com/name/nm4223882/?ref_=ttfc_fc_cl_t18">
+            <img src="https://i.redd.it/lux81z1vhbg91.jpg" alt="person5">
+        </a>
+    </div>
+    <div class="name">
+        <a href="https://www.imdb.com/name/nm4806449/mediaindex/?ref_=nm_mv_close" class="name">
+            Joseph Quinn
+        </a>
+        <a href="https://www.imdb.com/name/nm1092086/?ref_=tt_cst_i_4" class="name">
+            David Harbour
+        </a>
+        <a href="https://www.imdb.com/name/nm7140802/?ref_=nm_mv_close" class="name">
+            Gaten Matarazzo
+        </a>
+        <a href="https://www.imdb.com/name/nm5611121/?ref_=ttfc_fc_cl_t9" class="name">
+            Millie Bobby Brown
+        </a>
+        <a href="https://www.imdb.com/name/nm4223882/?ref_=ttfc_fc_cl_t18" class="name">
+            Dacre Montgomery
+        </a>
+    </div>
+    <!-- The Umbrellar Academy -->
+    <body>
+        <div class="poster2">
+            <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/01/umbrellaacademy.jpg" alt="">
+        </div>
+        <div class="movie2">
+            <img src="https://image.tmdb.org/t/p/original/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg" alt="The Umbrella Academy">
+            <div class="detail">
+                <a href="https://www.imdb.com/title/tt1312171/?ref_=tt_mv_close" style="color: white; font-size: 16px; margin-right: 10px; text-decoration: none; cursor: pointer; margin-left: 20;font-size: 50;">The Umbrella Academy ></a>                
+                <p style="margin-left: 20;">⭐ 10.0/10.0</p>
+                <h2 style="margin-left: 20;color: gold;">Series streaming on Netflix</h2>
+                <h3 style="max-width: 650;margin-left: 20;font-size: 17;">The story follows the dysfunctional Hargreeves family, seven adopted siblings born under mysterious circumstances, each possessing unique superpowers. Raised by their eccentric and distant billionaire father, Sir Reginald Hargreeves, they were trained to become a superhero team called The Umbrella Academy.
+                    Years later, as adults, the siblings reunite after their father’s death and must confront unresolved family conflicts while working together to unravel the mystery of his death. Along the way, they face apocalyptic threats, time-traveling assassins, and the challenge of saving the world—all while grappling with their own personal demons.</h3>
+            </div>
+        </div>
+        <iframe 
+         width="500" 
+         height="300" 
+         src="https://www.youtube.com/embed/0DAmWHxeoKw"
+         title="video player" 
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+         allowfullscreen>
+        </iframe>  
+    </body>
+    <div class="person">
+        <a href="https://www.imdb.com/name/nm6200897/?ref_=tt_cst_t_6">
+            <img src="data:image/webp;base64,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" alt="person1">
+        </a>
+        <a href="https://www.imdb.com/name/nm2584392/?ref_=tt_cst_t_2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Tom_Hopper_Brussels_Comiccon_2022_%28cropped%29.jpg/220px-Tom_Hopper_Brussels_Comiccon_2022_%28cropped%29.jpg" alt="person2">
+        </a>
+        <a href="https://www.imdb.com/name/nm1588066/?ref_=tt_cst_t_5">
+            <img src="https://i.pinimg.com/736x/19/27/f8/1927f84cb6cfc6396ba5eb28b32db6e3.jpg" alt="person3">
+        </a>
+        <a href="https://www.imdb.com/name/nm3244078/?ref_=ttfc_fc_cl_t3">
+            <img src="https://preview.redd.it/david-casta%C3%B1eda-v0-i52es1zp0hmd1.jpg?width=564&format=pjpg&auto=webp&s=dbb4ef30df35612727f8b0ff8dac7af45b3657a1" alt="person4">
+        </a>
+        <a href="https://www.imdb.com/name/nm8287501/?ref_=tt_cst_t_4">
+            <img src="https://64.media.tumblr.com/99b830d7c6ff5c52d8de6f7eb762d3b2/c28a505f1ee96a62-b8/s250x400/0bdfb6cdb1e6c1e0c3beffeee0082fb1203a35a6.jpg" alt="person5">
+        </a>
+    </div>
+    <div class="name">
+        <a href="https://www.imdb.com/name/nm6200897/?ref_=tt_cst_t_6" class="name">
+            Aidan Gallagher
+        </a>
+        <a href="https://www.imdb.com/name/nm2584392/?ref_=tt_cst_t_2" class="name">
+            Tom Hopper
+        </a>
+        <a href="https://www.imdb.com/name/nm1588066/?ref_=tt_cst_t_5" class="name">
+            Robert Sheehan
+        </a>
+        <a href="https://www.imdb.com/name/nm3244078/?ref_=ttfc_fc_cl_t3" class="name">
+            David Castañeda
+        </a>
+        <a href="https://www.imdb.com/name/nm8287501/?ref_=tt_cst_t_4" class="name">
+            Emmy Raver-Lampman
+        </a>
+    </div>
+    <div style="margin-left: 498;">
+        <div class="feture">
+            <h1 style="display: inline;color: gold;font-size: 35;">|</h1> 
+            <p style="display: inline;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;font-size: 30;color: white;">
+              Featured today
+            </p>
+      </div>
+
+      <div class="feture_poster">
+         <a href="https://www.imdb.com/title/tt18352538/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_reborn%2520rich">    
+         <img src="https://m.media-amazon.com/images/M/MV5BYzlhNGU0NGQtNmYzMi00MzdjLTlkMzgtNTAzM2NhYTlhMzdhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="reborn rich">
+             <p>⭐ 10.0</p>
+             <h3>Reborn Rich</h3>     
+             <button>+Watchlist</button>
+             <p style="text-align: center;cursor: pointer;">▶Trailer</p>
+         </a>
+
+         <a href="https://www.imdb.com/title/tt2119532/?ref_=nv_sr_srsg_8_tt_5_nm_2_in_0_q_hack">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_.jpg" alt="hacksaw rigde">
+                <p>⭐ 10.0</p>
+                <h3>Hacksaw Ridge</h3>
+                <button>+Watchlist</button>
+                <p style="text-align: center;cursor: pointer;">▶Trailer</p>
+         </a>
+
+         <a href="https://www.imdb.com/title/tt12846096/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_18%2520aga">
+            <img src="https://m.media-amazon.com/images/M/MV5BNWZkYzk0YWEtZjE5ZC00MDFjLTg5M2MtNjVmNjUzZGU0OTIyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="18 again">
+                <p>⭐ 10.0</p>
+                <h3>18 Again</h3>
+                <button>+Watchlist</button>
+                <p style="text-align: center;cursor: pointer;">▶Trailer</p>
+         </a>
+
+         <a href="https://www.imdb.com/title/tt21195490/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_big%2520mo">
+            <img src="https://i0.wp.com/www.korseries.com/wp-content/uploads/2022/07/Big-Mouth-MBC-Postee-1-060722.jpg?resize=750%2C1060&ssl=1" alt="big mouth">
+                <p>⭐ 10.0</p>
+                <h3>Big Mouth</h3>
+                <button>+Watchlist</button>
+                <p style="text-align: center;cursor: pointer;">▶Trailer</p>         
+            </a>
+         <a href="https://www.imdb.com/title/tt16493854/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_ghost%2520d">
+            <img src="https://i0.wp.com/www.korseries.com/wp-content/uploads/2021/12/Ghost-Doctor-tvN-Poster-10122021.jpg?resize=708%2C1024&ssl=1" alt="ghost doctor">
+                <p>⭐ 10.0</p>
+                <h3>Ghost Doctor</h3>
+                <button>+Watchlist</button>
+                <p style="text-align: center;cursor: pointer;">▶Trailer</p>         
+            </a>
+         <a href="https://www.imdb.com/title/tt21800888/?ref_=nv_sr_srsg_2_tt_4_nm_0_in_0_q_6%252F45">
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/6-45_%28film%29.jpg" alt="6/45">
+                <p>⭐ 10.0</p>
+                <h3>6/45 Lucky lotto</h3>
+                <button>+Watchlist</button>
+                <p style="text-align: center;cursor: pointer;">▶Trailer</p>         
+            </a>   
+      </div>
+    </div>
+    
+
+
+</html>
